@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background:linear-gradient(
+    to left,
+    rgb(179, 252, 230),
+    rgb(98, 249, 249)
+  );
+  /* background-color: aqua; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

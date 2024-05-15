@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin: 10vh;
+  background:linear-gradient(
+    to left,
+    rgb(18, 237, 182)0%,
+    rgb(156, 160, 158)100%,
+  );
+  /* min-width: 60vh; */
+}
+@media (max-width:900px) {
+  .App {
+    /* background-color: black; */
+    margin: 0vh 0vh;
+    width: 100%;
+  }
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+

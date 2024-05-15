@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(145, 241, 246);
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    padding: 10px;
+}
+@media (max-width:900px) {
+     .card{
+         width: 80%;
+         height: 90%;
+        margin-left: 5%;
+    } 
+}
+.card:hover{
+    transform: scale(1.05);
+}
+

@@ -1,0 +1,29 @@
+.cardList{
+    /* width: 95%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+}
+@media (max-width:900px) {
+    .cardList{
+        display: grid;
+        /* background-color: bisque; */
+        grid-template-columns:1fr  1fr;
+        justify-content: center;
+        /* width: 50% */
+
+        
+    }
+}
+@media (max-width:400px) {
+    .cardList{
+        display: grid;
+        /* background-color: bisque; */
+        grid-template-columns:1fr;
+        justify-content: center;
+        /* width: 50% */
+
+        
+    }
+};
